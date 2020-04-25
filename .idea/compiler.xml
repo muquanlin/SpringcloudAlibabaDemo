@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_consumer" />
+        <module name="springcloud_provider" />
+        <module name="springcloud_provider_byapi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common_api" target="11" />
+      <module name="springcloud_api" target="11" />
+      <module name="springcloud_consumer" target="11" />
+      <module name="springcloud_consumer_api" target="11" />
+      <module name="springcloud_provider" target="11" />
+      <module name="springcloud_provider_byapi" target="11" />
+      <module name="SpringcloudAlibabaDemo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringcloudAlibabaDemo" options="-parameters" />
+      <module name="common_api" options="-parameters -verbose -bootclasspath &quot;C:/Program Files/Java/jdk11.0.3.7\lib\rt.jar;C:/Program Files/Java/jdk11.0.3.7\lib\jce.jar&quot;" />
+      <module name="springcloud_api" options="-parameters" />
+      <module name="springcloud_consumer" options="-parameters" />
+      <module name="springcloud_consumer_api" options="-parameters -verbose -bootclasspath &quot;C:/Program Files/Java/jdk11.0.3.7\lib\rt.jar;C:/Program Files/Java/jdk11.0.3.7\lib\jce.jar&quot;" />
+      <module name="springcloud_provider" options="-parameters" />
+      <module name="springcloud_provider_byapi" options="-parameters" />
+    </option>
+  </component>
+</project>
